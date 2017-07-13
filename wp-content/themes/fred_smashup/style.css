@@ -1,0 +1,173 @@
+/*
+Theme Name: Fred_Smashup
+Author: Christopher Schenk
+Version: 1.0
+*/
+
+/* BOOTSTRAP CUSTOMIZATION */
+
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+/* Link Cursor Style */
+a:hover, .pointer_hover a img{
+ cursor:pointer;
+}
+
+p a {
+    text-decoration:none;
+}
+
+iframe {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.modal-body iframe {
+    max-width: none;
+}
+
+.thumbnail {
+    background-color: #ededed;
+    padding: 0px;
+    border-radius: 0px;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.15);
+    max-width: 400px;
+}
+
+.thumbnail p {
+    margin: 0px;
+}
+
+.caption {
+    font-style: normal;
+}
+
+@media (min-width: 1200px) {
+    .video-single iframe {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-xs-12.content-video-col {
+        text-align: center;
+    }
+    .thumbnail, .video-header {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .video-header {
+        text-align:center;
+    }
+}
+
+#scroll_posts {
+    overflow-y: scroll;
+    height: 559px;
+}
+
+#twitter_box {
+    border: 1px solid #ddd;
+}
+
+.overview-panel {
+
+}
+
+.p_audio_overview, .p_video_overview, .p_blog_overview{
+    position: relative;
+    padding-left: 80px;
+    line-height: 1.5;
+    margin: 30px 0;
+}
+
+.overview-panel .p_audio_overview::before {
+    margin-top: -18px;
+    position: absolute;
+    left: 0;
+    width: 50px;
+    text-align: center;
+    font-size: 2em;
+    font-family: FontAwesome;
+    content: "\f1be";
+    color: rgb(244, 129, 34);
+}
+
+.overview-panel .p_video_overview::before {
+    margin-top: -10px;
+    position: absolute;
+    left: 0;
+    width: 50px;
+    font-size: 2em;
+    font-family: FontAwesome;
+    content: "\f144";
+    color: rgb(230, 39, 29);
+}
+
+.overview-panel .p_blog_overview::before {
+    margin-top: -14px;
+    position: absolute;
+    left: 0;
+    width: 50px;
+    text-align: center;
+    font-size: 2em;
+    font-family: FontAwesome;
+    content: "\f040";
+    color: skyblue;
+}
+
+.blog-overview {
+    margin-bottom: 40px;
+}
+
+.read-more {
+    margin-top: 8px;
+}
+
+.blog-feature-image {
+    width: 100%;
+    height: auto;   
+}
+
+.twitter-btn {
+    /*
+    border-color: #00aced; 
+    background-color:#00aced;
+    */
+}
